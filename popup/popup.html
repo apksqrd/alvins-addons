@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body>
+    <div id="tableOfContents">
+        <h1>Extensions</h1>
+
+        YouTube Dimmer
+        <br>
+        Restricted Dark Mode
+    </div>
+
+    <form id="ytDimmer">
+        <label for="ytBrightnessSlider">Youtube Brightness (0-100):</label>
+        <input type="range" id="ytBrightnessSlider" min="0" max="100" step="1" value="100">
+        <label for="ytDoLiveUpdate">Do Live Updates:</label>
+        <input type="checkbox" id="ytDoLiveUpdate" value="false">
+        <button type="submit">Save</button>
+    </form>
+
+    <script src="ytBrightnessSetter.js"></script>
+</body>
+
+</html>

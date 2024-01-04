@@ -1,0 +1,7 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background: black !important;
+        color: white !important;
+        filter: brightness(0%);
+    }
+}
